@@ -63,7 +63,7 @@ strong {
 #conteudo {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 .projects-list {

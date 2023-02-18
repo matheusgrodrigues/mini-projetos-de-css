@@ -1,3 +1,7 @@
-# mini-projetos-de-css
+# Mini projetos HTML & CSS
 
-Serie de vídeos que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos utilizando HTML5 e CSS3.
+Mini projetos HTML & CSS, para ajudá-lo a melhorar suas habilidades de codificação.
+
+## Projetos
+
+- [Introdução](#)

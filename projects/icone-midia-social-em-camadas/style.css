@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icons-item {
+  width: 128px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-item img {
+  width: 64px;
+  height: 64px;
+  transition: 0.3s;
+  transform: rotate(-30deg) skew(25deg);
+}
+
+.icons-item:hover {
+  cursor: pointer;
+}
+
+.icons-item:hover img {
+  transition: 0.3s;
+  transform: translate3d(0, -28px, 0) rotate(-30deg) skew(25deg);
+}
+
+.icons-item:hover img.twitch {
+  box-shadow: -12px 12px 1px #301f4f, -24px 24px 2px #7d5abe,
+    -36px 36px 2px #d4c8e9, -48px 48px 3px #040206;
+}
